@@ -17,14 +17,14 @@ int main()
             a[i][j] = num++;
         }
     }
-
+//gpt참고
     for (i = 0; i < 5; i++) {
         for (j = 0; j < 5; j++) {
-            int rand_i = rand() % 5;
-            int rand_j = rand() % 5;
+            int randi = rand() % 5;
+            int randj = rand() % 5;
             int temp = a[i][j];
-            a[i][j] = a[rand_i][rand_j];
-            a[rand_i][rand_j] = temp;
+            a[i][j] = a[randi][randj];
+            a[randi][randj] = temp;
         }
     }
     // for (i = 0; i < 5; i++) {
