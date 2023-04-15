@@ -17,7 +17,7 @@ int main()
             a[i][j] = num++;
         }
     }
-//gpt참고
+//챗gpt참고
     for (i = 0; i < 5; i++) {
         for (j = 0; j < 5; j++) {
             int randi = rand() % 5;
